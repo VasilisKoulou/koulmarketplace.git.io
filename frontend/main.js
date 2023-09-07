@@ -12,7 +12,7 @@ if (token) {
 logoutBtn.addEventListener('click', (e) => {
     e.preventDefault()
     localStorage.removeItem('token')
-    window.location = 'file:///C:/Users/User/Desktop/frontend/login.html'
+    window.location = 'file:///C:/Users/User/OneDrive/myproject/frontend/products-list.html'
 })
 
 let productsURL = 'http://127.0.0.1:8000/api/products/'
