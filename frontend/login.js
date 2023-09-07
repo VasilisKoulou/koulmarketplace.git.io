@@ -20,7 +20,7 @@ form.addEventListener('submit', (e) => {
         console.log('DATA:', data.access)
         if (data.access) {
             localStorage.setItem('token', data.access)
-            window.location = 'file:///C:/Users/User/Desktop/frontend/products-list.html'
+            window.location = 'file:///C:/Users/User/OneDrive/myproject/frontend/login.html'
         } else {
             alert('Username OR password did not work')
         }
